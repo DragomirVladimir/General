@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Generali</title>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./images/favicons/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./images/favicons/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./images/favicons/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./images/favicons/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./images/favicons/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./images/favicons/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./images/favicons/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/favicons/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./images/favicons/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./images/favicons/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicons/favicon-16x16.png"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./images/favicons/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link href="./css/intlTelInput.min.css" rel="stylesheet" />
+    <link href="./css/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="./css/rangeslider.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <nav class="nav">
+            <h1 class="logo" aria-label="Generali">
+              <img class="logo__img" src="./images/logo.svg" alt="Generali" />
+            </h1>
+
+            <ul class="nav__menu">
+              <li class="nav__menu-item">
+                <a class="nav__menu-link" href="#info" data-anchor
+                  >Informazioni</a
+                >
+              </li>
+              <li class="nav__menu-item">
+                <a class="nav__menu-link" href="#ceo" data-anchor>CEO</a>
+              </li>
+              <li class="nav__menu-item">
+                <a class="nav__menu-link" href="#start" data-anchor
+                  >Iniziare a guadagnare subito</a
+                >
+              </li>
+
+              <li class="nav__menu-item">
+                <a class="nav__menu-link" href="#info" data-anchor
+                  >Informazioni</a
+                >
+              </li>
+            </ul>
+
+            <button class="burger-btn">
+              <span class="burger-btn__line"></span>
+            </button>
+          </nav>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="section registration">
+          <h2 class="sr-only">registration</h2>
+          <div class="container">
+            <div class="registration__inner">
+              <div class="registration__item registration__item--content">
+                <div class="registration__content">
+                  <div class="registration__content-text">
+                    <p>
+                      Investire 250 euro per raggiungere 5000 euro in una
+                      settimana vi sembra impossibile? Con il Gruppo Generali
+                      potete fare ancora di più!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="registration__item registration__item--form">
+                <div class="registration__form-wrapper">
+                  <form class="form form-request" id="form">
+                    <div class="form__fields">
+                      <label class="form__field form_field">
+                        <input
+                          class="form__input"
+                          type="text"
+                          name="f_name"
+                          placeholder="il suo nome"
+                          required
+                        />
+                      </label>
+                      <label class="form__field form_field">
+                        <input
+                          class="form__input"
+                          type="text"
+                          name="l_name"
+                          placeholder="il suo cognome"
+                          required
+                        />
+                      </label>
+                      <label class="form__field form_field">
+                        <input
+                          class="form__input"
+                          type="email"
+                          name="email"
+                          placeholder="e-mail"
+                          required
+                        />
+                      </label>
+                      <label class="form__field form_field">
+                        <input
+                          class="form__input"
+                          id="phone"
+                          type="tel"
+                          name="phone"
+                        />
+                      </label>
+                    </div>
+                    <button class="button form__btn" type="submit">
+                      Registrati
+                    </button>
+                  </form>
+                </div>
+              </div>
+              <div class="registration__item registration__item--decor">
+                <div class="registration__decor">
+                  <picture>
+                    <source
+                      media="(max-width: 768px)"
+                      srcset="./images/purpose/purpose.png"
+                    />
+                    <img
+                      lass="registration__decor-img"
+                      src="./images/purpose/purpose@2x.png"
+                      alt=""
+                    />
+                  </picture>
+                </div>
+              </div>
+              <div class="registration__item registration__item--info">
+                <div class="registration__info">
+                  <h3 class="registration__info-title">IL NOSTRO SCOPO</h3>
+                  <p class="registration__info-text">
+                    Siamo qui per promuovere lo sviluppo e la circolazione delle
+                    persone, delle imprese e del Paese.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section start" id="start">
+          <div class="container">
+            <h2 class="start__title">Inizia a servire con noi</h2>
+
+            <ul class="start__list">
+              <li class="start__item">
+                <div class="start__card start__card--reg">
+                  <h3 class="start__item-title">Registrazione</h3>
+
+                  <p class="start__item-description">
+                    Compilare tutti i campi del modulo di registrazione sul sito
+                    web.
+                  </p>
+
+                  <a class="start__item-btn" href="#form" data-anchor
+                    >Iniziare</a
+                  >
+                </div>
+              </li>
+
+              <li class="start__item">
+                <div class="start__card start__card--cons">
+                  <h3 class="start__item-title">Consultazione di esperti</h3>
+
+                  <p class="start__item-description">
+                    Dopo la registrazione, rispondere all'invito del Consulente
+                    di supporto di Petrol Energia e seguire tutte le sue
+                    istruzioni.
+                  </p>
+
+                  <a class="start__item-btn" href="#form" data-anchor
+                    >Iniziare</a
+                  >
+                </div>
+              </li>
+
+              <li class="start__item">
+                <div class="start__card start__card--dep">
+                  <h3 class="start__item-title">Deposito</h3>
+
+                  <p class="start__item-description">
+                    Dopo la verifica, è necessario depositare un minimo di 250
+                    euro sul conto dell'azionista.
+                  </p>
+
+                  <a class="start__item-btn" href="#form" data-anchor
+                    >Iniziare</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section income" id="ceo">
+          <div class="container">
+            <div class="income__info">
+              <div class="income__info-img-wr">
+                <img
+                  class="income__info-img"
+                  src="./images/man.png"
+                  alt="John Doe"
+                />
+              </div>
+
+              <div class="income__info-content">
+                <div class="income__info-text">
+                  Philippe Donnet, amministratore delegato di Generali, ha
+                  appena festeggiato dieci anni in Italia e in un’intervista a
+                  “Repubblica” spiega che bilancio trae dal nostro Paese: “In
+                  questi dieci anni il mondo ha dovuto fare i conti con prove
+                  molto dure e questo ci ha resi più capaci di gestire
+                  l’imprevedibile. L’Italia ha resistito bene. Per quanto mi
+                  riguarda, tre anni fa sono diventato cittadino italiano:
+                  perché ci tenevo a rimarcare un’adesione forte ai valori e
+                  alla cultura di questo Paese”. Un’altra prova per l’economia è
+                  stato il repentino rialzo dei tassi: “A mio parere è improprio
+                  parlare oggi di tassi alti: quando ero teenager, i mutui
+                  viaggiavano a due cifre percentuali. La vera anomalia è stata
+                  vivere con tassi a zero per quindici anni. Oggi siamo in una
+                  situazione normale. Per quel che riguarda il nostro gruppo,
+                  abbiamo un business mix grazie al quale possiamo crescere in
+                  qualsiasi ciclo economico”. La crescita dell’Italia è stimata
+                  attorno allo 0,7 per cento: “Noi non avremo problemi ma per la
+                  crescita si può fare meglio, in Italia e in Europa. Ritengo
+                  che in Europa non ci sia abbastanza Europa, ma troppe tasse e
+                  troppe norme, che si sovrappongono a quelle nazionali. Questo
+                  non aiuta né le famiglie né le imprese: quindi abbassiamo le
+                  tasse, riduciamo le norme e liberiamo le energie
+                  imprenditoriali”.
+                </div>
+              </div>
+            </div>
+
+            <h2 class="income__title">Potencijal dobiti</h2>
+
+            <div class="income__counter" id="info">
+              <div class="counter">
+                <div class="counter__wrapper">
+                  <input
+                    type="text"
+                    id="range_term"
+                    name="range_term"
+                    value=""
+                  />
+
+                  <input
+                    type="text"
+                    id="range_deposit"
+                    name="range_deposit"
+                    value=""
+                  />
+                </div>
+                <a class="counter__btn" href="#form" data-anchor>
+                  MOGUĆA DOBIT:
+                  <span class="counter__btn-value"
+                    >€ <span id="counter-value">8600</span></span
+                  >
+                </a>
+              </div>
+
+              <div class="income__statistics statistics">
+                <div class="statistics__item">
+                  <h4 class="statistics__item-title">
+                    UKUPNA DOBIT KORISNIKA:
+                  </h4>
+
+                  <span class="statistics__item-value">€ 128 567 000</span>
+                </div>
+                <div class="statistics__item">
+                  <h4 class="statistics__item-title">AKTIVNI KORISNICI:</h4>
+                  <span class="statistics__item-value">77 335</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section reviews">
+          <h2 class="sr-only">reviews</h2>
+          <div class="container">
+            <div class="reviews__inner">
+              <div class="reviews__list swiper">
+                <div class="swiper-wrapper">
+                  <div class="reviews__item swiper-slide">
+                    <div class="review">
+                      <div class="review__author">
+                        <div class="review__author-img-wr">
+                          <img
+                            class="review__author-img"
+                            src="./images/reviews/user-1.png"
+                            alt="Jeff Bezos"
+                          />
+                        </div>
+                        <div class="review__author-info">
+                          <span class="review__author-name"
+                            >Jeff Bezos <span>:</span></span
+                          >
+
+                          <div class="review__author-description">
+                            Technologieunternehmer, Investor und Philanthrop
+                          </div>
+
+                          <a
+                            class="review__author-social"
+                            href="#!"
+                            aria-label="facebook"
+                          ></a>
+                        </div>
+                      </div>
+                      <blockquote class="review__text">
+                        Dem Quantencomputing gehört die Zukunft. Ich übertreibe
+                        nicht, wenn ich sage, es wird alles verändern wird. Das
+                        Quantencomputing steht noch ganz am Anfang; nicht viele
+                        Menschen wissen davon, was bedeutet, dass nur sehr
+                        wenige es nutzen. Die wenigen, die es nutzen, treffen
+                        unglaublich kluge (und profitable) Entscheidungen.
+                      </blockquote>
+                    </div>
+                  </div>
+                  <div class="reviews__item swiper-slide">
+                    <div class="review">
+                      <div class="review__author">
+                        <div class="review__author-img-wr">
+                          <img
+                            class="review__author-img"
+                            src="./images/reviews/user-2.png"
+                            alt="Bill Gates:"
+                          />
+                        </div>
+                        <div class="review__author-info">
+                          <span class="review__author-name"
+                            >Bill Gates<span>:</span></span
+                          >
+
+                          <div class="review__author-description">
+                            Wirtschaftsmagnat, Investor, Autor, Philanthrop und
+                            Menschenfreund
+                          </div>
+
+                          <a
+                            class="review__author-social"
+                            href="#!"
+                            aria-label="facebook"
+                          ></a>
+                        </div>
+                      </div>
+                      <blockquote class="review__text">
+                        Ich weiß mit Sicherheit, dass Elon 3 Milliarden Dollar
+                        von seinem eigenen Geld ausgegeben hat, um dieses
+                        Programm zu finanzieren. Hut ab vor ihm - das sind 3
+                        Milliarden Dollar von seinem eigenen Geld, um eine
+                        bessere Zukunft für alle zu finanzieren und um anderen
+                        zu helfen Gewinne zu machen, die ihm dabei helfen
+                        werden! Das ist eine Win-Win-Situation, und ich bin sehr
+                        gespannt zu sehen, wohin das führen wird.
+                      </blockquote>
+                    </div>
+                  </div>
+                  <div class="reviews__item swiper-slide">
+                    <div class="review">
+                      <div class="review__author">
+                        <div class="review__author-img-wr">
+                          <img
+                            class="review__author-img"
+                            src="./images/reviews/user-3.png"
+                            alt="Bill Gates:"
+                          />
+                        </div>
+                        <div class="review__author-info">
+                          <span class="review__author-name"
+                            >Bill Gates<span>:</span></span
+                          >
+
+                          <div class="review__author-description">
+                            Wirtschaftsmagnat, Investor, Autor, Philanthrop und
+                            Menschenfreund
+                          </div>
+
+                          <a
+                            class="review__author-social"
+                            href="#!"
+                            aria-label="facebook"
+                          ></a>
+                        </div>
+                      </div>
+                      <blockquote class="review__text">
+                        Ich weiß mit Sicherheit, dass Elon 3 Milliarden Dollar
+                        von seinem eigenen Geld ausgegeben hat, um dieses
+                        Programm zu finanzieren. Hut ab vor ihm - das sind 3
+                        Milliarden Dollar von seinem eigenen Geld, um eine
+                        bessere Zukunft für alle zu finanzieren und um anderen
+                        zu helfen Gewinne zu machen, die ihm dabei helfen
+                        werden! Das ist eine Win-Win-Situation, und ich bin sehr
+                        gespannt zu sehen, wohin das führen wird.
+                      </blockquote>
+                    </div>
+                  </div>
+                  <div class="reviews__item swiper-slide">
+                    <div class="review">
+                      <div class="review__author">
+                        <div class="review__author-img-wr">
+                          <img
+                            class="review__author-img"
+                            src="./images/reviews/user-4.png"
+                            alt="Bill Gates:"
+                          />
+                        </div>
+                        <div class="review__author-info">
+                          <span class="review__author-name"
+                            >Bill Gates<span>:</span></span
+                          >
+
+                          <div class="review__author-description">
+                            Wirtschaftsmagnat, Investor, Autor, Philanthrop und
+                            Menschenfreund
+                          </div>
+
+                          <a
+                            class="review__author-social"
+                            href="#!"
+                            aria-label="facebook"
+                          ></a>
+                        </div>
+                      </div>
+                      <blockquote class="review__text">
+                        Ich weiß mit Sicherheit, dass Elon 3 Milliarden Dollar
+                        von seinem eigenen Geld ausgegeben hat, um dieses
+                        Programm zu finanzieren. Hut ab vor ihm - das sind 3
+                        Milliarden Dollar von seinem eigenen Geld, um eine
+                        bessere Zukunft für alle zu finanzieren und um anderen
+                        zu helfen Gewinne zu machen, die ihm dabei helfen
+                        werden! Das ist eine Win-Win-Situation, und ich bin sehr
+                        gespannt zu sehen, wohin das führen wird.
+                      </blockquote>
+                    </div>
+                  </div>
+                  <div class="reviews__item swiper-slide">
+                    <div class="review">
+                      <div class="review__author">
+                        <div class="review__author-img-wr">
+                          <img
+                            class="review__author-img"
+                            src="./images/reviews/user-5.png"
+                            alt="Bill Gates:"
+                          />
+                        </div>
+                        <div class="review__author-info">
+                          <span class="review__author-name"
+                            >Bill Gates<span>:</span></span
+                          >
+
+                          <div class="review__author-description">
+                            Wirtschaftsmagnat, Investor, Autor, Philanthrop und
+                            Menschenfreund
+                          </div>
+
+                          <a
+                            class="review__author-social"
+                            href="#!"
+                            aria-label="facebook"
+                          ></a>
+                        </div>
+                      </div>
+                      <blockquote class="review__text">
+                        Ich weiß mit Sicherheit, dass Elon 3 Milliarden Dollar
+                        von seinem eigenen Geld ausgegeben hat, um dieses
+                        Programm zu finanzieren. Hut ab vor ihm - das sind 3
+                        Milliarden Dollar von seinem eigenen Geld, um eine
+                        bessere Zukunft für alle zu finanzieren und um anderen
+                        zu helfen Gewinne zu machen, die ihm dabei helfen
+                        werden! Das ist eine Win-Win-Situation, und ich bin sehr
+                        gespannt zu sehen, wohin das führen wird.
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section partners">
+          <div class="container">
+            <h2 class="partners__title">Gli azionisti dell'azienda</h2>
+
+            <ul class="partners__list">
+              <li class="partners__item">
+                <img
+                  class="partners__logo"
+                  src="./images/partners/mediobanca.png"
+                  alt="mediobanca"
+                />
+              </li>
+              <li class="partners__item">
+                <img
+                  class="partners__logo"
+                  src="./images/partners/unicredit.png"
+                  alt="unicredit"
+                />
+              </li>
+              <li class="partners__item">
+                <img
+                  class="partners__logo"
+                  src="./images/partners/ditalia.png"
+                  alt="ditalia"
+                />
+              </li>
+              <li class="partners__item">
+                <img
+                  class="partners__logo"
+                  src="./images/partners/bd.png"
+                  alt="bd"
+                />
+              </li>
+              <li class="partners__item">
+                <img
+                  class="partners__logo"
+                  src="./images/partners/barlo.png"
+                  alt="barlo"
+                />
+              </li>
+              <li class="partners__item">
+                <img
+                  class="partners__logo"
+                  src="./images/partners/generali.png"
+                  alt="generali"
+                />
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <a class="logo" href="#">
+              <img class="logo__img" src="./images/logo.svg" alt="Generali" />
+            </a>
+
+            <ul class="footer__nav">
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#!">Mappa del sito</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#!">Termini di utilizzo</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#!"
+                  >Avviso di accessibilità</a
+                >
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#!">Gestione dei Cookie</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#!"
+                  >Politica sulla protezione dei dati e informativa sulla
+                  privacy</a
+                >
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#!"
+                  >Avviso di frode Web e phishing</a
+                >
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#!"
+                  >Politica sui reclami – Australia</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/intlTelInput.min.js"></script>
+    <script src="./js/form.js"></script>
+    <script src="./js/swiper-bundle.js"></script>
+    <script src="./js/rangeslider.min.js"></script>
+    <script src="./js/range-slider.js"></script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+html,
+body,
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  color: inherit;
+  outline: transparent;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd,
+button,
+a,
+label,
+*::placeholder {
+  margin: 0;
+  padding: 0;
+  font-weight: inherit;
+  font-size: inherit;
+  letter-spacing: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+}
+
+address {
+  font-style: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
